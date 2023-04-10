@@ -47,21 +47,3 @@ table {
 	border-spacing: 0;
 }
 /* Meyer Web */
-
-
-/* My Style */
-
-body{
-    font-family: 'Forma DJR Banner', sans-serif;
-}
-
-
-@media screen and (max-width: 768px) {
-	div {
-
-	}
-}
-
-@media speech {
-
-}
