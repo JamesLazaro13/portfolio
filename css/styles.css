@@ -1,16 +1,189 @@
-/* My Style */
+/* My Styles */
+
+html {
+	max-width: 1920px;
+}
 
 body{
     font-family: 'Forma DJR Banner', sans-serif;
 }
 
 
+
+
+/* For iPad */
 @media screen and (max-width: 768px) {
-	div {
+	header{
+		display: flex;
+		align-items: center;
+		background-color: #043b1b;
+		padding: 0 40px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		justify-content: space-between;
+		
+
+	}
+
+	h4 {
+		color: white;
+		font-size: 25px;
+	}
+
+	header ul{
+		display: flex;
+
+	}
+
+	header ul a{
+		text-decoration: none;
+		color: white;
+		font-size: 25px;
+	}
+
+	header li a:hover{
+		color: #fba919;
+		transition: 0.4s ease-in-out;
 
 	}
 }
 
-@media speech {
+@media screen and (max-width: 1920px) {
+	header{
+		display: flex;
+		align-items: center;
+		background-color: #043b1b;
+		padding: 0 40px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		justify-content: space-between;
+
+	}
+
+	h4 {
+		color: white;
+	}
+
+	header ul{
+		display: flex;
+
+	}
+
+	header ul li {
+		padding: 0 15px;
+		font-size: 18px;
+	}
+
+	header ul a{
+		text-decoration: none;
+		color: white;
+		font-size: 25px;
+	}
+
+	header li a:hover{
+		color: #fba919;
+		transition: 0.4s ease-in-out;
+
+	}
 
 }
+
+
+/* Desktop Styles */
+.footerone {
+	background-color: #393F30;
+	padding: 0 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	top: 50%;
+	left: 50%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.btn btn-warning {
+	color: #043b1b;
+	background-color: #fba919;
+	font-style: normal;
+	box-shadow: inset 0 0 0 0 white;
+    transition: 0.4s;
+    outline: none;
+	display: flex;
+	justify-content: center;
+	
+
+}
+
+.getintouchbutton:hover {
+	box-shadow: inset 930px 0 0 0 white;     
+    color: #043b1b;                                 
+    cursor: pointer; 
+
+
+}
+
+.yellowbarfooter {
+	color: #fba919;
+	
+
+
+
+}
+
+/* Second Footer */
+.footertwo {
+	background-color: #043b1b;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+h3 {
+	color: #fba919;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+
+
+.top {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	padding-top: 30px;
+	background-color: black;
+
+}
+
+/* Last Footer */
+.footerthree {
+	background-color: black;
+	display: flex;
+	align-items: center;
+	padding: 0 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	justify-content: space-between;
+}
+
+.tiktokfoot {
+	height: 30px;
+	width: 30px;
+
+}
+
+.instagramfoot {
+	height: 30px;
+	width: 30px;
+}
+
+.twitterfood {
+	height: 30px;
+	width: 30px;
+}
+
+h4 {
+	font-size: 25px;
+}
+
